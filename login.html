@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="second-header">
+        <div class="logo2">
+           <h1 class="logo-text2">Adventures Await</h1>
+        </div>
+
+      <i class="fa fa-bars menu-toggle bars"></i>
+        <ul class="nav2">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Services</a></li>
+           <li>
+            <a href="#">
+        <i class="fa fa-user" style="font-size:1.2rem; margin-right:5px;" ></i>
+                Naziya
+        <i class="fa fa-chevron-down" style="font-size:.9rem; margin-left:5px;"></i></a>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#" class="logout">Logout</a></li>
+            </ul>
+        </li>
+        </ul>
+    </div>
+
+   <div class="auth-content">
+      <form action="login.html" method="post">
+        <h2 class="form-title">Login</h2>
+
+        <div>
+            <label>Username</label>
+            <input type="text" name="username" class="text-input" required>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" class="text-input" required>
+        </div>
+        <div>
+            <button type="submit" name="login-btn" class="btn btn-big">Login</button>
+        </div>
+        <p>Or <a href="register.html">Sign Up</a></p>
+      </form>
+ 
+   </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="script.js"></script>
+    
+</html>
